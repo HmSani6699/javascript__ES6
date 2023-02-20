@@ -8,4 +8,8 @@ I love web developer.
 I love code.
 I love eat biryani.
 `;
-console.log(myLove)
+// console.log(myLove)
+
+// practice 3
+const sum = (num1, num2 = 6) => num1 + num2;
+// console.log(sum(5))
