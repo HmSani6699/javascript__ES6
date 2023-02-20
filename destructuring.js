@@ -20,4 +20,9 @@ const { name: myName, age: myAge } = student.father
 const array = [1, 2, 3, 4, 5, 6, 7, 8];
 
 const [first, second, third] = array
-console.log(third)
+// console.log(third)
+
+const nayikas = ['mousumi', 'popy', 'shabnur', 'purnima'];
+
+const a = [...nayikas]
+console.log(a)
