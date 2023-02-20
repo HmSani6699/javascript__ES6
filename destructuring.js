@@ -1,2 +1,23 @@
-console.log('ami parbo insa allah');
-console.log('ami parbo insa allah');
+const student = {
+    name: 'Adib',
+    age: 20,
+    address: 'pakinda',
+    father: {
+        name: 'apu',
+        age: 26,
+        address: 'namapara'
+    }
+}
+
+const { name: myName, age: myAge } = student.father
+// console.log(myName);
+// console.log(myAge);
+
+
+
+// destructuring the array
+
+const array = [1, 2, 3, 4, 5, 6, 7, 8];
+
+const [first, second, third] = array
+console.log(third)
