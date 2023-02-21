@@ -6,4 +6,17 @@ const student = {
         thana: 'Sonarga'
     }
 }
-console.log(student.addres?.village)
+// console.log(student.addres?.village);
+
+
+
+const friends = {
+    id: 2,
+    name: 'Emon',
+    address: {
+        village: 'SondorBan',
+        jala: 'kasimpur'
+    }
+}
+
+console.log(friends.addres2?.jala)

@@ -25,5 +25,10 @@ const productPrice = products.map(p => {
     const s = p.price
     return s
 });
-console.log(productPrice)
+// console.log(productPrice)
+
+const array = [1, 2, 3, 4, 5];
+const output = array.map(function (v) { return v + 1 });
+const output1 = array.map(arr => arr + 2);
+console.log(output1)
 
