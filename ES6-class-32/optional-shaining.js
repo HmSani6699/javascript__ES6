@@ -1,1 +1,9 @@
-console.log('ami vallo asi tomi kemon aso')
+const student = {
+    id: 2,
+    name: 'Sakib',
+    address: {
+        village: 'pakunda',
+        thana: 'Sonarga'
+    }
+}
+console.log(student.addres?.village)
