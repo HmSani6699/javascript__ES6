@@ -32,3 +32,13 @@ const sum = array2.reduce((accumulated, current) => accumulated + current, 1)
 // console.log(sum)
 
 
+// practice 5
+//sum the all friends age. using to for loop and reduce
+const friends = [
+    { name: 'Adiba', age: 20, location: 'Ilomdi' },
+    { name: 'Babu', age: 15, location: 'Pakunda' },
+    { name: 'Thalha', age: 22, location: 'Sirabo' }
+];
+
+const allAge = friends.reduce((accumulated, current) => accumulated + current.age, 0);
+// console.log(allAge)
