@@ -41,4 +41,14 @@ const friends = [
 ];
 
 const allAge = friends.reduce((accumulated, current) => accumulated + current.age, 0);
-// console.log(allAge)
+// console.log(allAge);
+
+
+// practice 6
+// access object value
+const father = {
+    name: 'Abul fojal raja',
+    age: 45
+};
+const { name, age } = father;
+console.log(name, age);
