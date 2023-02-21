@@ -61,10 +61,40 @@ const grandfather = {
     father: {
         name: 'Abul',
         age: 45,
-        children: ['male', 'female', { address: 'pakunda' }]
+        children: ['male', 'female', { address1: 'pakunda' }]
     }
 };
 
-const { address } = grandfather.father.children[2];
+const { address1 } = grandfather.father.children[2];
 // console.log(address)
 
+// practice 8
+const data = {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+        "street": "Kulas Light",
+        "suite": "Apt. 556",
+        "city": "Gwenborough",
+        "zipcode": "92998-3874",
+        "geo": {
+            "lat": "-37.3159",
+            "lng": "81.1496"
+        }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+        "name1": "Romaguera-Crona",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+    }
+};
+
+const { email, address } = data;
+const { city, geo } = data.address;
+const { lat } = data.address.geo;
+const { name1 } = data.company
+// console.log(name1)
