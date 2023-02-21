@@ -51,4 +51,20 @@ const father = {
     age: 45
 };
 const { name, age } = father;
-console.log(name, age);
+// console.log(name, age);
+
+// practice 7
+
+const grandfather = {
+    name: 'Nasir',
+    age: 80,
+    father: {
+        name: 'Abul',
+        age: 45,
+        children: ['male', 'female', { address: 'pakunda' }]
+    }
+};
+
+const { address } = grandfather.father.children[2];
+// console.log(address)
+
