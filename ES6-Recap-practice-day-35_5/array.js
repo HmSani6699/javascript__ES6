@@ -17,4 +17,15 @@ const result2 = number2.filter(num => num % 2 == 1);
 //find
 const number3 = [1, 2, 3, 4, 5];
 const result3 = number3.find(num => num < 3);
-console.log(result3)
+// console.log(result3)
+
+const number4 = [1, 2, 3, 4, 5];
+const result4 = array => {
+    let sum = 0;
+    for (const num of array) {
+        const multiply = num * num;
+        sum += multiply
+    }
+    return sum
+}
+console.log(result4(number4))
