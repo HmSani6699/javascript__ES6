@@ -24,5 +24,10 @@ const [first, second, third] = array
 
 const nayikas = ['mousumi', 'popy', 'shabnur', 'purnima'];
 
-const a = [...nayikas]
-console.log(a)
+// const a = [...nayikas]
+// console.log(a)
+
+
+
+const { a, ...t } = { a: 1, b: 2, c: 3, d: 4 };
+console.log(t)
